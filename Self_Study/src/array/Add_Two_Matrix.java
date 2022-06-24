@@ -3,7 +3,7 @@ import java.util.*;
 
 
 
-
+// array of matrix
 public class Add_Two_Matrix {
 	int m,n;
 	int first[][] = new int[m][n];
