@@ -40,11 +40,16 @@ public static void main(String[] args) {}
 
 
 //Method
-public void bookProduct(float bool) {}
-public void items(float item ) {}
+public void bookProduct(float bool) {
+	System.out.print("product booked and charges are" + charges);
+}
+
+public void items(float charges ) {
+	System.out.println("Items are delivered with charges :"+charges);
+}
 
 public String toString() {
-	return "ShopAcc{" + "accNo=" + accNo + ", accNm=" + accNm + ", charges=" + charges + '}';
+	return "ShopAcc{" + "accNo=" + accNo + ", accNm=" + accNm + ", charges=" + charges + "}";
 }
 
 }

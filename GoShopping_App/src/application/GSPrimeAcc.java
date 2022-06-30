@@ -1,4 +1,4 @@
-package gsPrimeAcc;
+package application;
 import framework.PrimeAcc;
 
 public class GSPrimeAcc extends PrimeAcc {

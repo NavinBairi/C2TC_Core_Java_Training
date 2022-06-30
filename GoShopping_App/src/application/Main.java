@@ -1,4 +1,4 @@
-package gsPrimeAcc;
+package application;
 
 import framework.NormalAcc;
 import framework.PrimeAcc;

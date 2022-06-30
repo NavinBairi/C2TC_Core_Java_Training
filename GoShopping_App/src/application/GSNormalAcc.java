@@ -1,10 +1,12 @@
-package gsPrimeAcc;
+package application;
 import framework.NormalAcc;
 public class GSNormalAcc extends NormalAcc {
 //constructor
 	public GSNormalAcc(int accNo, String accNm, float charges, float deliveryCharges) {
 		super(accNo, accNm, charges, deliveryCharges);
 	}
+	
+	
 	
 	@Override
 	public void bookProduct(float charges) {
